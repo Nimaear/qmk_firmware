@@ -26,6 +26,10 @@ enum planck_layers {
   _FNLYR
 };
 
+/*
+sudo env CFLAGS="-Wno-error=deprecated" make planck/rev6:oz:dfu-util
+*/
+
 enum planck_keycodes {
     COLEMAK = SAFE_RANGE
 };
